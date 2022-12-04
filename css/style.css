@@ -1,0 +1,24 @@
+
+
+.hidden {
+    display: none;
+}
+
+body {          
+    text-align: center;       
+    display: grid;
+    grid-template-columns: 20% auto 20%;  
+    padding-top: 5rem; 
+    color: rgb(0, 183, 255);   
+}
+
+@keyframes blink-effect {
+    50% {
+      opacity: 0;
+    }
+  }
+  
+.colon {
+    animation: blink-effect 1s step-end infinite;
+}
+
